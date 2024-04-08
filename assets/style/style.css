@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    font-size: 62.5%;
+    --primary-color-:#1B3C59;
+    --secundary-color-:#A6567B;
+
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+    background-color: var(--primary-color-);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h1{
+    letter-spacing: 1.5px;
+    text-shadow: 2px 1px 2px rgba(48,34,167,0.6);
+}
+section{
+    text-align: center;
+   min-width: 90%;
+    background-color: #a6567bef;
+    padding: 3rem 0;
+    height: 40rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px #3d1f2d;
+
+}
+.validaçao{
+    background-color: rgb(104, 104, 104);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.gren{
+    background-color: rgb(24, 65, 24);
+
+}
+.red{
+    background-color: #491b1b;
+}
+input{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    max-width: 90%;
+    padding: 1rem ;
+    font-size: 3rem;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+label{
+    font-size: 3rem;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css-button-3d--grey {
+    max-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #425B8C;
+    box-shadow: 0 5px #283755;
+    font-size: 2.5rem;
+}
+.css-button-3d--grey:hover {
+    box-shadow: 0 3px #283755;
+    top: 1px;
+}
+.css-button-3d--grey:active {
+    box-shadow: 0 0 #283755;
+    top: 5px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 60px;
+}
+@media screen and (min-width: 53.25em) {
+    label{
+        font-size: 3rem;
+    }
+    section{
+        min-width: 80rem;
+        font-size: 2.4rem;
+    }
+    div{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+}
